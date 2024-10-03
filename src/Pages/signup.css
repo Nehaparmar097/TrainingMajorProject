@@ -1,0 +1,72 @@
+.signup-container {
+    max-width: 400px;
+    margin: 100px auto;
+    text-align: left;
+  }
+  
+  h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  input[type="email"],
+  input[type="text"] {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .name-fields {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .name-fields div {
+    width: 48%;
+  }
+  
+  .radio-group {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .radio-group label {
+    margin-right: 20px;
+  }
+  
+  .additional-info {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .additional-info a {
+    color: #0066cc;
+  }
+  
+  .continue-btn {
+    background-color: #FFD700;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .continue-btn:hover {
+    background-color: #FFC107;
+  }
+  

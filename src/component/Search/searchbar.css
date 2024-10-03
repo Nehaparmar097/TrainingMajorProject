@@ -1,0 +1,220 @@
+/* General container */
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    height: 300px;
+  }
+  
+  #dynamic-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: space-between; /* Align items evenly */
+    align-items: center; /* Center items vertically */
+    width: 100%; /* Ensure it takes the full width of the container */
+    max-width: 800px; /* Optional: Max width for larger screens */
+  }
+  
+  .dropdown {
+    position: relative;
+    flex: 1; /* Equal space for all elements */
+    margin: 0 5px; /* Add spacing between items */
+  }
+  
+  .btn {
+    width: 100%; /* Make button take full width of the dropdown */
+    text-align: left; /* Align text to the left */
+    padding: 10px; /* Add padding for better appearance */
+    border: 1px solid #ced4da; /* Border for better visibility */
+    background-color: #f8f9fa; /* Background color */
+    cursor: pointer; /* Pointer cursor for buttons */
+  }
+  
+  .btn:hover {
+    background-color: #e9ecef; /* Change background on hover */
+  }
+  
+  .dropdown-menu {
+    position: absolute; /* Position dropdown absolutely */
+    top: 100%; /* Align dropdown below the button */
+    left: 0; /* Align dropdown with the button */
+    width: 100%; /* Full width for the dropdown */
+    z-index: 100; /* Ensure dropdown is on top */
+    border: 1px solid #ced4da; /* Border for dropdown */
+    background-color: white; /* White background */
+    max-height: 200px; /* Max height for dropdown */
+    overflow-y: auto; /* Scroll if content overflows */
+  }
+  
+  .dropdown-item {
+    padding: 10px; /* Padding for dropdown items */
+    cursor: pointer; /* Pointer cursor for items */
+  }
+  
+  .dropdown-item:hover {
+    background-color: #e9ecef; /* Change background on hover */
+  }
+  
+  input[type="text"] {
+    flex: 1; /* Equal space for input */
+    padding: 10px; /* Padding for better appearance */
+    border: 1px solid #ced4da; /* Border for better visibility */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  #searchButton {
+    background-color: transparent; /* Transparent background */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor */
+  }
+  
+  #searchButton img {
+    width: 20px; /* Set size for search icon */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fef9e6; /* Light background */
+    padding: 20px; /* Adjust padding for spacing */
+    border-radius: 20px; /* Rounded corners */
+    width: 100%; /* Responsive width */
+    max-width: 1700px; /* Max width to prevent stretching */
+    margin: auto; /* Center align the container */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Dynamic text (headline) */
+#dynamic-text {
+    font-family: 'Roboto', sans-serif; /* Use a sans-serif font for a modern look */
+    font-size: 28px; /* Adjust size for better visibility */
+    font-weight: 500; /* Medium weight for better emphasis */
+    color: #333; /* Darker text color */
+    text-align: center;
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Search bar container */
+.search-bar {
+    display: flex;
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Center align vertically */
+    background-color: white; /* White background for the search bar */
+    border-radius: 100px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 10px 20px; /* Padding around the inputs */
+    width: 80%; /* Full width */
+}
+
+/* Input styles */
+input {
+    border: none;
+    padding: 10px; /* Space inside the input */
+    font-family: 'Roboto', sans-serif; /* Font consistency */
+    font-size: 16px; /* Consistent font size */
+    border-radius: 25px; /* Rounded corners */
+    outline: none; /* No outline */
+    margin-right: 10px; /* Space between input and button */
+    flex-grow: 1; /* Allow input to grow */
+}
+
+input::placeholder {
+    color: #aaa; /* Placeholder color */
+}
+
+/* Dropdown button styling */
+.btn {
+    display: flex; /* Center content */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    padding: 10px 20px;
+    border: 1px solid #ccc; /* Border for better visibility */
+    border-radius: 25px; /* Match input border radius */
+    background-color: #fff; /* White background */
+    cursor: pointer; /* Pointer on hover */
+    font-family: 'Roboto', sans-serif; /* Consistent font */
+    font-size: 16px; /* Font size for dropdown buttons */
+}
+
+/* Dropdown item styling */
+.dropdown-item {
+    padding: 8px 16px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif; /* Ensure font consistency */
+    font-size: 16px; /* Consistent font size */
+    color: #333; /* Default text color */
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1; /* Highlight on hover */
+}
+
+/* Search Button */
+#searchButton {
+    background: transparent; /* No background */
+    border: none; /* Remove border */
+    padding: 0; /* Remove padding */
+    cursor: pointer; /* Change cursor to pointer */
+    color: #333; /* Change icon color (optional) */
+    font-size: 1.5rem; /* Adjust icon size if necessary */
+  }
+  
+  #searchButton:hover {
+    color: #007bff; /* Change color on hover (optional) */
+  }
+  
+#searchButton {
+    background-color: #FFFAF0; /* Background color */
+   
+    border: none;
+    width: 40px;
+    padding: 15px; /* Padding for button */
+    cursor: pointer; /* Pointer on hover */
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+#searchButton img {
+    width: 1px; /* Adjust icon size */
+    height: 1px; /* Adjust icon size */
+}
+
+/* Search button hover effect */
+#searchButton:hover {
+    background-color: #ffca28; /* Change color on hover */
+}
+.dropdown-menu {
+    max-height: 200px; /* Limit height to enable scrolling */
+    overflow-y: auto;  /* Enable vertical scrolling */
+    overflow-x: hidden; /* Disable horizontal scrolling */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Dropdown visibility */
+.dropdown-menu {
+    max-height: 200px; /* Set the maximum height for the dropdown */
+    overflow-y: auto;  /* Enables vertical scroll */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Styling for the load more button */
+.load-more {
+    background-color: transparent; /* Transparent background */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer on hover */
+    color: #007BFF; /* Blue color for the load more button */
+    font-weight: bold; /* Bold text */
+    padding: 10px; /* Padding for the button */
+    text-align: center; /* Center align the text */
+}
