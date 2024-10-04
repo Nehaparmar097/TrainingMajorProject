@@ -1,0 +1,62 @@
+/* General container styling */
+.container {
+  background-color: #FFF9DB; /* Light yellow background */
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Custom styles for the dropdown */
+.city-dropdown {
+  display: inline-block;
+  width: 100%;
+}
+
+.dropdown-toggle-text {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
+  padding: 0.5rem 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.dropdown-toggle-text:hover {
+  background-color: transparent;
+  color: #FDE68A; /* Slightly darker yellow on hover */
+}
+
+.dropdown-menu {
+  background-color: #FFF9DB; /* Match dropdown background color */
+  border: 1px solid #D1D5DB;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #FDE68A;
+  color: #333;
+}
+
+/* Column grid layout */
+.col {
+  display: flex;
+  justify-content: center;
+}

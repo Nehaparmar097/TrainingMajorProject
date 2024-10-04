@@ -4,27 +4,34 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Signup from './Pages/signup'; // Corrected spelling from 'singup' to 'signup'
 import Header from './component/header';
 import Footer from './component/footer';
-import SearchBar from './component/Search/Searchbar'
-import Mid1 from './component/mid1';
+import Speciality from './component/speciality';
 import Login from './Pages/login'
-import InsurancePlans from './component/mid2'
+import Hero from './component/searchbarr'
 import img  from './image.png';
-
+import CityGrid from "./component/findbycity"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import PrivatePractice from './component/Doctor'
+import Insurance from './component/insurance';
 
 function App() {
   return (
     <Router>
-      <Header />
-      <SearchBar/>
-      <Mid1/>
-      <InsurancePlans/>
-      <img src={img} alt="Logo" style={{ width: '100%', height: '100%' }} />
       
+      <Header />
       <Routes>
-      <Route path="/signup" element={<Signup />} />
-       <Route path="/login" element={<Login />} />
-        {/* Add more routes as needed */}
+     
+      <Route path="/Login" element={<Login />} />
+      <Route path="/Signup" element={<Signup />} />
+   
+      
       </Routes>
+      <Hero/>
+      <Insurance/>
+      <Speciality/>
+    
+      <img src={img} alt="Logo" style={{ width: '100%', height: '100%' }} />
+      <CityGrid/>
+      <PrivatePractice/>
       <Footer />
     </Router>
   );

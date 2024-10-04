@@ -1,0 +1,79 @@
+/* Insurance component styles */
+.insurance-section {
+    background-color: white;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  
+  .insurance-container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .insurance-heading {
+    font-size: 1.875rem; /* 30px */
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+  
+  .insurance-subtext {
+    color: #4A5568; /* gray-600 */
+    text-align: left;
+  }
+  
+  .insurance-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .insurance-item {
+    background-color: white;
+    border: 1px solid #D1D5DB; /* gray-300 */
+    padding: 1rem;
+    border-radius: 0.375rem; /* rounded-lg */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem; /* 160px */
+    height: 5rem; /* 80px */
+  }
+  
+  .insurance-logo {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  .insurance-link {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.375rem; /* rounded-lg */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 5rem;
+    color: #3B82F6; /* blue-500 */
+    text-decoration: none;
+  }
+  
+  .insurance-link:hover {
+    text-decoration: underline;
+  }
+  
+  .insurance-button {
+    padding: 0.75rem 1.5rem; /* px-6 py-2 */
+    background-color: white;
+    border: 1px solid #6B7280; /* gray-500 */
+    border-radius: 0.375rem; /* rounded-md */
+  }
+  
+  .insurance-button:hover {
+    background-color: #F3F4F6; /* gray-100 */
+  }
+  
