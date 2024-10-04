@@ -30,7 +30,7 @@ const Login = () => {
         </Dropdown.Menu>
       </Dropdown>
 
-      {/* Modal for login details */}
+     
       <Modal show={showModal} onHide={handleCloseModal}>
         <Modal.Header closeButton>
           <Modal.Title>{loginRole} Login</Modal.Title>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Dropdown } from 'react-bootstrap';
 import './findbycity.css';
+import JobOpening from "./jobopening";  
 
 const cities = [
   { city: "New York City", countries: ["USA", "Canada", "Mexico"] },
@@ -44,7 +45,7 @@ function CityDropdown({ city, countries }) {
 
 function CityGrid() {
   return (
-    <Container className="mt-8 bg-yellow-50 p-6 rounded-lg shadow-lg">
+    <Container className="mt-6 bg-yellow-10 p-10 ">
       <h2 className="text-center text-2xl font-bold mb-4">Find doctors and dentists by city</h2>
       <Row>
         {cities.map((item, index) => (
@@ -53,6 +54,9 @@ function CityGrid() {
           </Col>
         ))}
       </Row>
+
+     
+      <JobOpening />
     </Container>
   );
 }

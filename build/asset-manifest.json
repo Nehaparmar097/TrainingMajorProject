@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fa9a41f5.css",
+    "main.js": "/static/js/main.01f2c65b.js",
+    "static/js/453.b29073da.chunk.js": "/static/js/453.b29073da.chunk.js",
+    "static/media/DoctorImage.png": "/static/media/DoctorImage.afb2c7c37b2eabd27346.png",
+    "static/media/image.png": "/static/media/image.0ad9c4702582a6acf21e.png",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/jobImage.png": "/static/media/jobImage.b0910e052e376cab6710.png",
+    "static/media/Left.png": "/static/media/Left.e1700781d8e67b71709f.png",
+    "static/media/Right.png": "/static/media/Right.7cb218e3dc4f61f56031.png",
+    "static/media/phy.png": "/static/media/phy.a69e51db054e0fb91603.png",
+    "static/media/ob.png": "/static/media/ob.4a8908eec0700af3dd8d.png",
+    "static/media/dentist.png": "/static/media/dentist.84a4844c212b095025dc.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "static/media/Hamburger.svg": "/static/media/Hamburger.1a5d31c43bfe40351b33158c9711a0f0.svg",
+    "static/media/down.svg": "/static/media/down.d9f72396d5ee88c0548840b80c263330.svg",
+    "main.fa9a41f5.css.map": "/static/css/main.fa9a41f5.css.map",
+    "main.01f2c65b.js.map": "/static/js/main.01f2c65b.js.map",
+    "453.b29073da.chunk.js.map": "/static/js/453.b29073da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa9a41f5.css",
+    "static/js/main.01f2c65b.js"
+  ]
+}

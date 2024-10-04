@@ -1,0 +1,136 @@
+/* Header styling for larger screens */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #FFFAF0;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.brand-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Navigation links */
+.header-nav a {
+    margin: 0 20px;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Right section for login/signup */
+.header-right {
+    display: flex;
+    gap: 20px;
+}
+/* Header.css */
+.header-right {
+    display: flex;
+    gap: 1rem; /* Adds space between buttons */
+  }
+  
+  .header-right .login,
+  .header-right .signup {
+    height:50px;
+    width: 100px;
+
+    padding: 10px 20px;
+    background-color: #f1ecac; 
+    color: rgb(13, 13, 13);
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-decoration: none; /* Remove underline */
+    text-align: center; /* Center text */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .header-right .login:hover,
+  .header-right .signup:hover {
+    background-color: #f3f08b; 
+  }
+  
+  .header-right .signup {
+    background-color: #f3f08b; 
+  }
+  
+  .header-right .signup:hover {
+    background-color: #f3f08b; 
+  }
+  
+
+
+
+
+
+
+.hamburger .line {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+}
+
+/* Responsive design for screens 768px and below */
+@media (max-width: 768px) {
+    .header {
+        padding: 15px 20px; /* Reduced padding for smaller screens */
+    }
+
+    /* Hide the navigation links on smaller screens */
+    .header-nav {
+        display: none;
+    }
+
+    /* Hide login/signup buttons initially */
+    .header-right {
+        display: none; /* Hide navigation on smaller screens */
+    }
+
+    /* Show the hamburger menu */
+    .hamburger {
+        display: flex;
+    }
+
+    /* Make the dropdown appear when the hamburger is clicked */
+    .header-right.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        background-color: #FFFAF0;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 10; 
+    }
+
+   
+    .header-right a {
+        padding: 10px 0;
+        margin: 5px 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .login, .signup {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+}

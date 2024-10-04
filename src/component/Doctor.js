@@ -1,6 +1,6 @@
 import React from 'react';
 import './Doctor.css'; 
-import DoctorImage from '../assets/DoctorImage.png'; // Correct image import
+import DoctorImage from '../assets/DoctorImage.png'; 
 
 const PrivatePractice = () => {
   return (

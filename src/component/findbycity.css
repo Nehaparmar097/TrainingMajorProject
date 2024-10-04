@@ -1,12 +1,14 @@
-/* General container styling */
+.container, .container-md, .container-sm {
+  max-width: 100%;
+}
 .container {
-  background-color: #FFF9DB; /* Light yellow background */
+  background-color: #f8edb8; 
   padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+ 
+background-size: 100%;
 }
 
-/* Title styling */
+
 h2 {
   font-size: 1.75rem;
   font-weight: 600;
@@ -15,7 +17,6 @@ h2 {
   color: #333;
 }
 
-/* Custom styles for the dropdown */
 .city-dropdown {
   display: inline-block;
   width: 100%;
@@ -35,11 +36,11 @@ h2 {
 
 .dropdown-toggle-text:hover {
   background-color: transparent;
-  color: #FDE68A; /* Slightly darker yellow on hover */
+  color: #f7dd75; 
 }
 
 .dropdown-menu {
-  background-color: #FFF9DB; /* Match dropdown background color */
+  background-color: #f8eea3; 
   border: 1px solid #D1D5DB;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

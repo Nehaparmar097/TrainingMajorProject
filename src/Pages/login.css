@@ -1,5 +1,8 @@
 .app-container {
-    padding: 20px;
+    padding: 10px;
+    height:50px;
+    width: 50px;
+
   }
   
   .dropdown-category {
@@ -10,7 +13,7 @@
   }
   
   .dropdown-item {
-    padding-left: 20px;
+    padding-left: 30px;
     cursor: pointer;
   }
   
@@ -18,4 +21,11 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  
+  button.btn.btn-primary{
+
+    color: black;
+    background-color: rgb(252, 242, 163);
+  } 
+  div.dropdowm.menu.show{
+     background-color: rgb(241, 239, 225);
+  }

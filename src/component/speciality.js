@@ -16,11 +16,15 @@ const Speciality = () => {
             <div className="speciality-item" key={index}>
               <div className="speciality-card">
                 <div className="speciality-image-container">
+                   <a href="/dummy">
+                   <button>
                   <img
                     src={specialty.imgSrc}
                     alt={specialty.name}
                     className="speciality-image"
                   />
+                  </button>
+                  </a>
                 </div>
                 <p className="speciality-name">{specialty.name}</p>
               </div>

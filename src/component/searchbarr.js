@@ -6,7 +6,7 @@ import blink from "../assets/Hero/Design.png";
 import "./searchbarr.css";
 import { FaSearch, FaMapMarkerAlt, FaRegAddressCard, FaChevronDown } from "react-icons/fa";
 
-const Hero = () => {
+const Search = () => {
   const [specializations, setSpecializations] = useState([]);
   const [filteredSpecializations, setFilteredSpecializations] = useState([]);
   const [selectedSpecialization, setSelectedSpecialization] = useState("");
@@ -250,4 +250,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Search;

@@ -3,7 +3,7 @@ import InsuranceImage from "../assets/Insurance";
 import './insurance.css'
 const Insurance = () => {
   const insurances = InsuranceImage;
-
+  
   return (
     <section className="insurance-section">
       <div className="insurance-container">
@@ -19,14 +19,18 @@ const Insurance = () => {
         <div className="insurance-grid">
           {insurances.map((insurance, index) => (
             <div key={index} className="insurance-item">
-              <img
-                src={insurance}
-                alt="Insurance logo"
-                className="insurance-logo"
-              />
+           <a href="/dummy">
+        <button>
+          <img
+            src={insurance}
+            alt="Insurance logo"
+            className="insurance-logo"
+          />
+        </button>
+      </a>
             </div>
           ))}
-          <a href="#" className="insurance-link">
+          <a href="/dummy" className="insurance-link">
             See all (1,000+)
           </a>
         </div>
