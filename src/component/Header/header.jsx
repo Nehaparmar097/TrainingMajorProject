@@ -1,38 +1,3 @@
-// import React, { useState } from 'react';
-// import { Link } from 'react-router-dom'; 
-// import './header.css'; 
-// import mylogo from '../../assets/zocdoc-removebg-preview.png';
-// import Login from '../../Pages/login'
-
-// const Header = () => {
-//   const [menuOpen, setMenuOpen] = useState(false);
-
-//   const toggleMenu = () => {
-//     setMenuOpen(!menuOpen);
-//   };
-
-//   return (
-//     <header className="header">
-//       <div className="header-left">
-//         <img src={mylogo} alt="Logo" className="logo" />
-//         <span className="brand-name">Zocdoc</span>
-//       </div>
-
-//       <nav className="header-nav">
-//         <Link to="#">Browse</Link>
-//         <Link to="#">Help</Link>
-//         <Link to="#">List your practice on Zocdoc</Link>
-//       </nav>
-    
-//       <nav className={`header-right ${menuOpen ? 'active' : ''}`}>
-//       <Login className="login" />
-//       <Link to="/Signup" className="signup">Sign up</Link>
-//     </nav>
-//     </header>
-//   );
-// };
-
-// export default Header;
 
 
 import React, { useState } from "react";
@@ -88,10 +53,10 @@ const Header = () => {
             </a>
           </div>
 
-          {/* Mobile Navigation Menu */}
+         
           {isMobileMenuOpen && (
                 <div className="absolute top-0 left-0 w-full h-[50vh] bg-yellow-50 shadow-md lg:hidden flex flex-col items-center justify-center p-4 z-50">
-                    {/* Close Button */}
+                  
                     <img className="absolute top-4 left-4 h-11 w-28" src={LogoImg} alt="hello" />
 
                     <button 
@@ -103,7 +68,7 @@ const Header = () => {
                         </svg>
                     </button>
 
-                    {/* Menu Content */}
+                   
                     <h2 className="text-2xl font-semibold mb-6">Welcome to Zocdoc</h2>
                     <button className="bg-yellow-500 text-white px-4 py-2 rounded-full mb-4 hover:bg-yellow-600">
                         Sign up

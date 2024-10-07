@@ -13,6 +13,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import PrivatePractice from "./component/Doctor";
 import Insurance from "./component/insurance";
 import Home from "./Home"
+import PartnerSection from "./component/partner"
+import DoctorSection from "./component/practiceSection"
+
 
 function App() {
   return (
@@ -28,9 +31,11 @@ function App() {
           <Search />
           <Insurance />
           <Speciality />
-          <img src={img} alt="Logo" style={{ width: "100%", height: "100%" }} />
-          <CityGrid />
+         <DoctorSection/>
+          
           <PrivatePractice />
+          <PartnerSection/>
+          <CityGrid />
           </>
         }/>
          <Route path="/dummy" element={<PrivatePractice />} />

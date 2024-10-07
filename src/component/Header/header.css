@@ -1,4 +1,4 @@
-/* Header styling for larger screens */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -24,7 +24,7 @@
     color: #333;
 }
 
-/* Navigation links */
+
 .header-nav a {
     margin: 0 20px;
     font-size: 16px;
@@ -32,15 +32,14 @@
     text-decoration: none;
 }
 
-/* Right section for login/signup */
 .header-right {
     display: flex;
     gap: 20px;
 }
-/* Header.css */
+
 .header-right {
     display: flex;
-    gap: 1rem; /* Adds space between buttons */
+    gap: 1rem;
   }
   
   .header-right .login,
@@ -54,9 +53,9 @@
     border: none;
     border-radius: 5px;
     margin-top: 15px;
-    text-decoration: none; /* Remove underline */
-    text-align: center; /* Center text */
-    transition: background-color 0.3s; /* Smooth transition */
+    text-decoration: none; 
+    text-align: center; 
+    transition: background-color 0.3s; 
   }
   
   .header-right .login:hover,
@@ -85,28 +84,28 @@
     margin: 5px 0;
 }
 
-/* Responsive design for screens 768px and below */
+
 @media (max-width: 768px) {
     .header {
-        padding: 15px 20px; /* Reduced padding for smaller screens */
+        padding: 15px 20px; 
     }
 
-    /* Hide the navigation links on smaller screens */
+    
     .header-nav {
         display: none;
     }
 
-    /* Hide login/signup buttons initially */
+    
     .header-right {
-        display: none; /* Hide navigation on smaller screens */
+        display: none; 
     }
 
-    /* Show the hamburger menu */
+    
     .hamburger {
         display: flex;
     }
 
-    /* Make the dropdown appear when the hamburger is clicked */
+   
     .header-right.active {
         display: flex;
         flex-direction: column;
