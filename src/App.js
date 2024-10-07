@@ -4,17 +4,17 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Signup from "./Pages/signup"; // Corrected spelling from 'singup' to 'signup'
 import Header from "./component/Header/header";
 import Footer from "./component/Footer/footer";
-import Speciality from "./component/speciality";
+import Speciality from "./component/Speciality/speciality"
 import Login from "./Pages/login";
-import Search from "./component/searchbarr";
+import Search from "./component/SearchBar/searchbarr";
 import img from "./image.png";
-import CityGrid from "./component/findbycity";
+import CityGrid from "./component/FindByCity/findbycity";
 import "bootstrap/dist/css/bootstrap.min.css";
-import PrivatePractice from "./component/Doctor";
-import Insurance from "./component/insurance";
-import Home from "./Home"
-import PartnerSection from "./component/partner"
-import DoctorSection from "./component/practiceSection"
+import PrivatePractice from "./component/DocterSection/Doctor";
+import Insurance from "./component/Insurance/insurance";
+
+import PartnerSection from "./component/Partners/partner"
+import DoctorSection from "./component/PractiveSection/practiceSection"
 
 
 function App() {

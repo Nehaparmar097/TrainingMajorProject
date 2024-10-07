@@ -1,10 +1,10 @@
 import React from "react";
-import MedStarHealth from "../assets/Partner/MedStarHealth.png";
-import MountSinai from "../assets/Partner/MountSinai.png";
-import Tufts from "../assets/Partner/Tufts.png";
-import Montefiore from "../assets/Partner/Montefiore.png";
-import IntermountainHealth from "../assets/Partner/IntermountainHealth.png";
-import Methodist from "../assets/Partner/Methodist.png";
+import MedStarHealth from "../../assets/Partner/MedStarHealth.png";
+import MountSinai from "../../assets/Partner/MountSinai.png";
+import Tufts from "../../assets/Partner/Tufts.png";
+import Montefiore from "../../assets/Partner/Montefiore.png";
+import IntermountainHealth from "../../assets/Partner/IntermountainHealth.png";
+import Methodist from "../../assets/Partner/Methodist.png";
 
 const PartnerSection = () => {
   return (

@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import leftH from "../assets/Hero/Left.png";
-import rightH from "../assets/Hero/Right.png";
-import blink from "../assets/Hero/Design.png";
+import leftH from "../../assets/Hero/Left.png";
+import rightH from "../../assets/Hero/Right.png";
+import blink from "../../assets/Hero/Design.png";
 import "./searchbarr.css";
 import { FaSearch, FaMapMarkerAlt, FaRegAddressCard, FaChevronDown } from "react-icons/fa";
 

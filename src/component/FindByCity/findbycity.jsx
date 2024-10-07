@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Dropdown } from 'react-bootstrap';
 import './findbycity.css';
-import JobOpening from "./jobopening";  
+import JobOpening from "../JobOpenings/jobopening";  
 
 const cities = [
   { city: "New York City", countries: ["USA", "Canada", "Mexico"] },

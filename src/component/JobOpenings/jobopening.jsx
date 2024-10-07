@@ -1,6 +1,6 @@
 import React from 'react';
 import './jobopening.css';
-import dummyImage from '../assets/jobImage.png'; 
+import dummyImage from '../../assets/jobImage.png'; 
 
 const JobOpening = () => {
   return (

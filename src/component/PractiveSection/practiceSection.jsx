@@ -1,5 +1,5 @@
 import React from "react";
-import DoctorImage from "../assets/Doctor";
+import DoctorImage from "../../assets/Doctor";
 
 const services = DoctorImage;
 

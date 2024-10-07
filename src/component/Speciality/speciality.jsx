@@ -1,5 +1,5 @@
 import React from "react";
-import SpecialityImage from "../assets/Speciality";
+import SpecialityImage from "../../assets/Speciality";
 import "./speciality.css"
 const specialties = SpecialityImage;
 

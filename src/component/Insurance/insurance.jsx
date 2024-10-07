@@ -1,5 +1,5 @@
 import React from "react";
-import InsuranceImage from "../assets/Insurance";
+import InsuranceImage from "../../assets/Insurance";
 import './insurance.css'
 const Insurance = () => {
   const insurances = InsuranceImage;
